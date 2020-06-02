@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="wwwroot/css/index.css" />
+    <link rel="icon" href="wwwroot/images/home_icon.png" />
+    <title>Home | Main page</title>
+  </head>
+  <body>
+    <div class="main_src">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="#" class="active_page">Home</a>
+        <a href="wwwroot/webpages/contact.html">Contact</a>
+        <a href="wwwroot/webpages/about.html">About</a>
+      </div>
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()"
+          >&#9776;</span
+        >
+      </div>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="wwwroot/images/wallpaper1.jpg" style="width:100%" />
+          <div class="text">Networking</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="wwwroot/images/wallpaper2.jpg" style="width:100%" />
+          <div class="text">Connecting People</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="wwwroot/images/wallpaper3.jpg" style="width:100%" />
+          <div class="text">Future Of Programming</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      <div class="summary_section">
+        <h1>Summary</h1>
+        <hr class="hr_one" />
+        <p>
+          Blume company was created in 1/6/2020 by A.I he is the ceo and founder
+          of this company , This company makes software, and websites for
+          customers and for its market.
+        </p>
+      </div>
+    </div>
+    <script src="wwwroot/js/index.js"></script>
+  </body>
+</html>
